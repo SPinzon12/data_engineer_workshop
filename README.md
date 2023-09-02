@@ -38,9 +38,26 @@ The repository consists of the following components:
 
 To start using the project, follow these steps:
 
-1. Install the required libraries listed in `requirements.txt`.
-2. Configure the PostgreSQL database connection in `db_config.json`.
-3. Run `main.py` to execute the data migration and transformation processes.
-4. Utilize the generated data and visualizations as needed.
+1. **Clone the Repository:**
+   - Clone the project repository in your development environment.
 
-## Authors
+2. **Install the Required Libraries:**
+   - Install the necessary libraries listed in the `requirements.txt` file. You can do this using a package manager like `pip` in Python. Run the following command:
+     ```
+     pip install -r requirements.txt
+     ```
+
+3. **Configure the PostgreSQL Database Connection:**
+   - In the `db_config.json` file, configure the connection to the PostgreSQL database. Ensure that you provide the necessary connection details such as host, port, database name, username, and password.
+
+4. **Run `main.py`:**
+   - Execute the `main.py` script to perform data migration and transformation processes. This is the main script that carries out the data processing tasks specified in your project.
+
+5. **Utilize the Generated Data and Visualizations:**
+   - After running `main.py`, the processed data and generated visualizations will be available for use. You can use them as needed in your project, whether for analysis, reports, or other applications.
+
+---
+
+Follow these steps in order to get started and work effectively on your project.
+
+
